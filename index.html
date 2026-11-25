@@ -4,8 +4,42 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5f2eb">
-    <meta name="description" content="A portfolio of open-source projects by Alam Showkat.">
-    <title>Alam Showkat — Projects</title>
+    <meta name="description" content="Open-source projects by Alam Showkat, including lemoGamePad ultimate: turn an Android phone into a gamepad for Windows and Linux PCs.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <title>Alam Showkat — Open-source projects &amp; gamepad tools</title>
+    <link rel="canonical" href="https://alamshowkatdar.github.io/">
+    <meta property="og:type" content="profile">
+    <meta property="og:site_name" content="Alam Showkat">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="https://alamshowkatdar.github.io/">
+    <meta property="og:title" content="Alam Showkat — Open-source projects &amp; gamepad tools">
+    <meta property="og:description" content="Open-source projects by Alam Showkat, including lemoGamePad ultimate: turn an Android phone into a gamepad for Windows and Linux PCs.">
+    <meta property="og:image" content="https://alamshowkatdar.github.io/lemoGamePad-ultimate/assets/logo.png">
+    <meta property="og:image:alt" content="lemoGamePad ultimate logo">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alam Showkat — Open-source projects &amp; gamepad tools">
+    <meta name="twitter:description" content="Open-source projects by Alam Showkat, including lemoGamePad ultimate: turn an Android phone into a gamepad for Windows and Linux PCs.">
+    <meta name="twitter:image" content="https://alamshowkatdar.github.io/lemoGamePad-ultimate/assets/logo.png">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "url": "https://alamshowkatdar.github.io/",
+      "name": "Alam Showkat — Projects",
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Alam Showkat",
+        "url": "https://alamshowkatdar.github.io/",
+        "sameAs": ["https://github.com/Alamshowkatdar"],
+        "knowsAbout": [
+          "Android gamepad for PC",
+          "Virtual gamepad software",
+          "Open-source Android apps",
+          "Wi-Fi and Bluetooth controller input"
+        ]
+      }
+    }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -84,6 +118,7 @@
         transition: background .2s ease, padding .2s ease;
       }
 
+      .project-card[href] { text-decoration: none; }
       .project-card:hover { padding-right: 18px; padding-left: 18px; background: rgba(255, 255, 255, .55); }
       .project-card:focus-visible, .close-button:focus-visible, .detail-link:focus-visible { outline: 2px solid var(--orange); outline-offset: 3px; }
       .project-number { align-self: start; padding-top: 5px; color: #a5a094; font-size: 11px; font-variant-numeric: tabular-nums; }
@@ -179,6 +214,42 @@
           <div class="hero-stamp" aria-label="Number of public projects">
             <span id="project-count" class="stamp-number">—</span>
             <span class="stamp-caption"><strong>public projects</strong><br>made to solve real little problems</span>
+          </div>
+        </section>
+
+        <section aria-labelledby="featured-title">
+          <div class="projects-heading">
+            <h2 id="featured-title">Featured projects</h2>
+            <span class="sort-note">Selected work with links to the website and source.</span>
+          </div>
+          <div class="project-list">
+            <a class="project-card" href="https://alamshowkatdar.github.io/lemoGamePad-ultimate/">
+              <span class="project-number">01</span>
+              <span class="project-main">
+                <span class="project-name">lemoGamePad ultimate</span>
+                <span class="project-description">Turn an Android phone into a virtual gamepad for Windows or Linux PCs over Wi-Fi, USB or Bluetooth. Up to eight players, a browser pad and a live PC screen preview.</span>
+              </span>
+              <span class="project-language"><span class="language-dot"></span> Kotlin · Python</span>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="project-card" href="https://github.com/Alamshowkatdar/bluekit">
+              <span class="project-number">02</span>
+              <span class="project-main">
+                <span class="project-name">bluekit</span>
+                <span class="project-description">Turn an Android phone into a Bluetooth keyboard, trackpad, gamepad and media remote for computers, TVs and consoles.</span>
+              </span>
+              <span class="project-language"><span class="language-dot"></span> Kotlin</span>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="project-card" href="https://github.com/Alamshowkatdar/igi-mobile">
+              <span class="project-number">03</span>
+              <span class="project-main">
+                <span class="project-name">igi-mobile</span>
+                <span class="project-description">Android game and tooling experiments, built as a mobile client with an offline-first approach.</span>
+              </span>
+              <span class="project-language"><span class="language-dot"></span> Kotlin</span>
+              <span class="project-arrow" aria-hidden="true">↗</span>
+            </a>
           </div>
         </section>
 
